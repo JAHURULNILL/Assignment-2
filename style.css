@@ -217,6 +217,7 @@
     width: 280px;
     height: 350px;
     border-radius: 5px;
+    box-shadow: 0px 4px 30px rgba(211, 211, 215, 0.838);
 }
 
 #about-me-title {
@@ -353,6 +354,7 @@
 
     .our-feature {
         margin-top: 50px;
+        padding-left: 5px;
     }
     .our-feature-img {
         grid-template-columns: repeat(1, 1fr);
@@ -364,16 +366,19 @@
         flex-direction: column;
         justify-content: center;
     }
-
+    .feature-text{
+        width: 100%;
+    }
     .feature-big-text {
         font-weight: 700;
         font-size: 30px;
     }
 
     .feature-img {
-        width: 90%;
+        width: 100%;
         margin: 0;
         margin-bottom: 40px;
+        margin-top: 20px;
     }
 
     .btn-dgn {
@@ -385,6 +390,21 @@
         justify-content: center;
         align-items: center;
         margin: 0 auto;
+    }
+    #my-img{
+        box-shadow: 0px 4px 30px rgba(139, 140, 141, 0.838);
+    }
+    #about-me-title{
+       width: 90%;
+       margin-top: 5px;
+    }
+    #title-name{
+        font-weight: 500px;
+        font-size: 25px;
+    }
+    #about-disc{
+        font-weight: 300px;
+        font-size: 20px;
     }
 
     .carrer-box {
