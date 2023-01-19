@@ -218,6 +218,7 @@
     height: 350px;
     border-radius: 5px;
     box-shadow: 0px 4px 30px rgba(211, 211, 215, 0.838);
+    padding: 4px;
 }
 
 #about-me-title {
@@ -400,10 +401,12 @@
     }
     #about-me-title{
        width: 90%;
+       font-size: 30px;
+       font-weight: 500px;
        margin-top: 5px;
     }
     #title-name{
-        font-weight: 500px;
+        font-weight: 400px;
         font-size: 25px;
     }
     #about-disc{
