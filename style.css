@@ -392,7 +392,11 @@
         margin: 0 auto;
     }
     #my-img{
+        padding: 3px;
         box-shadow: 0px 4px 30px rgba(139, 140, 141, 0.838);
+    }
+    .about-text{
+        margin-left: 5px;
     }
     #about-me-title{
        width: 90%;
@@ -406,6 +410,9 @@
         font-weight: 300px;
         font-size: 20px;
     }
+    .fact-text{
+        margin-top: 50px;
+    }
 
     .carrer-box {
         flex-direction: column;
@@ -413,6 +420,7 @@
         text-align: center;
         margin: 0 auto;
         margin-top: 50px;
+        gap: 50px;
     }
 
     .sponsor-item {
@@ -421,6 +429,7 @@
         align-items: center;
         margin: 0 auto;
         margin-top: 50px;
+        gap: 50px;
     }
 
     #footer {
